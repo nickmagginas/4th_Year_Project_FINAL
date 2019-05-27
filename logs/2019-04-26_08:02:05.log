@@ -1,0 +1,87 @@
+INFO:Running DDQN for 10000 episodes.
+INFO:Current Network: subset
+INFO:Start Node: 5| End Node: 0
+WARNING:From /home/ilyas/dev/network_gym_env_RL/env/lib/python3.6/site-packages/tensorflow/python/framework/op_def_library.py:263: colocate_with (from tensorflow.python.framework.ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Colocations handled automatically by placer.
+WARNING:From /home/ilyas/dev/network_gym_env_RL/RL_implementations/DDQN.py:131: dense (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dense instead.
+WARNING:From /home/ilyas/dev/network_gym_env_RL/RL_implementations/DDQN.py:132: dropout (from tensorflow.python.layers.core) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use keras.layers.dropout instead.
+WARNING:From /home/ilyas/dev/network_gym_env_RL/env/lib/python3.6/site-packages/tensorflow/python/keras/layers/core.py:143: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+INFO:q_net_0: Tensor("Sum:0", shape=(?,), dtype=float32)
+WARNING:From /home/ilyas/dev/network_gym_env_RL/env/lib/python3.6/site-packages/tensorflow/python/ops/math_ops.py:3066: to_int32 (from tensorflow.python.ops.math_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.cast instead.
+INFO:Episode 0 and Episode Rewards: -1 and Average Reward: -1.0
+INFO:Episode 1 and Episode Rewards: -14 and Average Reward: -7.5
+INFO:Episode 2 and Episode Rewards: -2 and Average Reward: -5.666666666666667
+INFO:Episode 3 and Episode Rewards: -2 and Average Reward: -4.75
+INFO:Episode 4 and Episode Rewards: -5 and Average Reward: -4.8
+INFO:Episode 5 and Episode Rewards: -18 and Average Reward: -7.0
+INFO:Episode 6 and Episode Rewards: -2 and Average Reward: -6.285714285714286
+INFO:Episode 7 and Episode Rewards: -2 and Average Reward: -5.75
+INFO:Episode 8 and Episode Rewards: -7 and Average Reward: -5.888888888888889
+INFO:Episode 9 and Episode Rewards: -1 and Average Reward: -5.4
+INFO:Episode 10 and Episode Rewards: -91 and Average Reward: -13.181818181818182
+INFO:Episode 11 and Episode Rewards: -91 and Average Reward: -19.666666666666668
+INFO:Episode 12 and Episode Rewards: -6 and Average Reward: -18.615384615384617
+INFO:Episode 13 and Episode Rewards: -1 and Average Reward: -17.357142857142858
+INFO:Episode 14 and Episode Rewards: -6 and Average Reward: -16.6
+INFO:Episode 15 and Episode Rewards: -1 and Average Reward: -15.625
+INFO:Episode 16 and Episode Rewards: -111 and Average Reward: -21.235294117647058
+INFO:Episode 17 and Episode Rewards: -6 and Average Reward: -20.38888888888889
+INFO:Episode 18 and Episode Rewards: -18 and Average Reward: -20.263157894736842
+INFO:Episode 19 and Episode Rewards: -1 and Average Reward: -19.3
+INFO:Episode 20 and Episode Rewards: -5 and Average Reward: -18.61904761904762
+INFO:Episode 21 and Episode Rewards: -18 and Average Reward: -18.59090909090909
+INFO:Episode 22 and Episode Rewards: -8 and Average Reward: -18.130434782608695
+INFO:Episode 23 and Episode Rewards: -8 and Average Reward: -17.708333333333332
+INFO:Episode 24 and Episode Rewards: -1 and Average Reward: -17.04
+INFO:Episode 25 and Episode Rewards: -7 and Average Reward: -16.653846153846153
+INFO:Episode 26 and Episode Rewards: -5 and Average Reward: -16.22222222222222
+INFO:Episode 27 and Episode Rewards: -111 and Average Reward: -19.607142857142858
+INFO:Episode 28 and Episode Rewards: -1 and Average Reward: -18.96551724137931
+INFO:Episode 29 and Episode Rewards: -6 and Average Reward: -18.533333333333335
+INFO:Episode 30 and Episode Rewards: -5 and Average Reward: -18.096774193548388
+INFO:episode_reward -5
+INFO:Episode 31 and Episode Rewards: -1 and Average Reward: -17.5625
+INFO:Episode 32 and Episode Rewards: -5 and Average Reward: -17.181818181818183
+INFO:Episode 33 and Episode Rewards: -85 and Average Reward: -19.176470588235293
+INFO:Episode 34 and Episode Rewards: -1 and Average Reward: -18.65714285714286
+INFO:Episode 35 and Episode Rewards: -4 and Average Reward: -18.25
+INFO:Episode 36 and Episode Rewards: -4 and Average Reward: -17.864864864864863
+INFO:Episode 37 and Episode Rewards: -2 and Average Reward: -17.44736842105263
+INFO:Episode 38 and Episode Rewards: -2 and Average Reward: -17.05128205128205
+INFO:Episode 39 and Episode Rewards: -8 and Average Reward: -16.825
+INFO:Episode 40 and Episode Rewards: -1 and Average Reward: -16.4390243902439
+INFO:episode_reward -1
+INFO:Episode 41 and Episode Rewards: -2 and Average Reward: -16.095238095238095
+INFO:Episode 42 and Episode Rewards: -86 and Average Reward: -17.72093023255814
+INFO:Episode 43 and Episode Rewards: -12 and Average Reward: -17.59090909090909
+INFO:Episode 44 and Episode Rewards: -8 and Average Reward: -17.377777777777776
+INFO:Episode 45 and Episode Rewards: -4 and Average Reward: -17.08695652173913
+INFO:Episode 46 and Episode Rewards: -2 and Average Reward: -16.76595744680851
+INFO:Episode 47 and Episode Rewards: -3 and Average Reward: -16.479166666666668
+INFO:Episode 48 and Episode Rewards: -7 and Average Reward: -16.285714285714285
+INFO:Episode 49 and Episode Rewards: -8 and Average Reward: -16.12
+INFO:Episode 50 and Episode Rewards: -2 and Average Reward: -15.843137254901961
+INFO:episode_reward -2
+INFO:Episode 51 and Episode Rewards: -1 and Average Reward: -15.557692307692308
+INFO:Episode 52 and Episode Rewards: -2 and Average Reward: -15.30188679245283
+INFO:Episode 53 and Episode Rewards: -6 and Average Reward: -15.12962962962963
+INFO:Episode 54 and Episode Rewards: -2 and Average Reward: -14.89090909090909
+INFO:Episode 55 and Episode Rewards: -1 and Average Reward: -14.642857142857142
+INFO:Episode 56 and Episode Rewards: -3 and Average Reward: -14.43859649122807
+INFO:Episode 57 and Episode Rewards: -87 and Average Reward: -15.689655172413794
+INFO:Episode 58 and Episode Rewards: -3 and Average Reward: -15.474576271186441
+INFO:Episode 59 and Episode Rewards: -8 and Average Reward: -15.35
+INFO:Episode 60 and Episode Rewards: -94 and Average Reward: -16.639344262295083
+INFO:episode_reward -94
+INFO:Episode 61 and Episode Rewards: -6 and Average Reward: -16.467741935483872
+INFO:Episode 62 and Episode Rewards: -2 and Average Reward: -16.238095238095237
+INFO:Episode 63 and Episode Rewards: -7 and Average Reward: -16.09375
